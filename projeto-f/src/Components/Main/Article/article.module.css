@@ -1,0 +1,114 @@
+article{
+    background:linear-gradient(to bottom right,
+    #072438,
+    #01364bc5);
+    height: 37.6rem;
+    padding: 1rem;
+
+}
+
+/* Começo do slider do Article */
+
+.containerImg{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    gap: 40px;
+}
+
+.imgP{
+    width: 60rem;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-left: 6rem;
+}
+
+.imgS{
+    width: 20rem;
+    height: 15rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.btnCr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 0.7em;
+
+}
+
+.btnac {
+    background: linear-gradient(to bottom right,
+            #53afec,
+            #023c5e);
+    width: 1rem;
+    height: 1rem;
+    border: none !important;
+    border-radius: 0.19rem;
+    transition: 0.5s;
+    margin-top: 1rem;
+    
+}
+
+.btnac:hover {
+    background: linear-gradient(to top left,
+            #389dd8,
+            #17815e);
+    cursor:pointer;
+    box-shadow: 0 0 0.2em rgba(255, 255, 255, 0.815);
+}
+
+/* fim do slider do article */
+
+
+/* responsividade */
+
+@media screen and (max-width: 1600px) {
+    .containerImg{
+        display: flex;
+        align-items: center;
+        margin-top: 24px;
+        gap: 40px
+    }
+
+    .imgP{
+        width: 55rem;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        margin-left: 6rem;
+    }
+
+    .imgS{
+        width: 15rem;
+        height: 10rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    .btnCr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        gap: 0.7em;
+    
+    }
+
+    .btnac:hover {
+        background: linear-gradient(to top left,
+                #389dd8,
+                #17815e);
+        cursor:pointer;
+        box-shadow: 0 0 0.2em rgba(255, 255, 255, 0.815);
+    }
+
+}
